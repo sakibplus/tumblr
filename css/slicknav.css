@@ -1,0 +1,179 @@
+/*
+    Mobile Menu Core Style
+*/
+.slicknav_btn { position: relative; display: block; vertical-align: middle; float: right; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
+.slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left; }
+.slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
+.slicknav_menu .slicknav_no-text { margin: 0 }
+.slicknav_menu .slicknav_icon-bar { display: block; width: 1.125em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
+.slicknav_nav { clear: both }
+.slicknav_nav ul,
+.slicknav_nav li { display: block }
+.slicknav_nav .slicknav_arrow { font-size: 0.8em; margin: 0 0 0 0.4em; }
+.slicknav_nav .slicknav_item { display: block; cursor: pointer; }
+.slicknav_nav a { display: block }
+.slicknav_nav .slicknav_item a { display: inline }
+.slicknav_menu:before,
+.slicknav_menu:after { content: " "; display: table; }
+.slicknav_menu:after { clear: both }
+/* IE6/7 support */
+.slicknav_menu { *zoom: 1 }
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+.slicknav_menu {
+	font-size:17px;
+}
+/* Button */
+.slicknav_btn {
+	margin: 5px 5px 6px;	
+	text-decoration:none;	
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);	
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;  
+	background-color: #222222;
+}
+/* Button Text */
+.slicknav_menu  .slicknav_menutxt {	
+	color: #222;
+	font-weight: bold;	
+	text-shadow: 0 1px 3px #000;	
+}
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #fff;
+}
+.slicknav_menu {
+	background:#fff;
+	padding:5px;
+}
+.slicknav_nav {
+	color:#fff;
+	margin:0;	
+	padding:0;
+	font-size:0.875em;
+}
+.slicknav_nav, .slicknav_nav ul {
+	list-style: none;
+	overflow:hidden;
+}
+.slicknav_nav ul {
+	padding:0;
+	margin:0 0 0 20px;
+}
+.slicknav_nav .slicknav_item {
+	padding:5px 10px;
+	margin:2px 5px;
+}
+.slicknav_nav a{
+	padding:5px 10px;
+	margin:2px 5px;
+	text-transform: uppercase;
+  text-decoration: none;
+	color:#222;
+}
+.slicknav_nav .slicknav_item a {
+	padding:0;
+	margin:0;
+	text-transform: uppercase;
+  text-decoration: none;
+}
+.slicknav_nav .slicknav_item:hover {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background:#fff;
+	color:#222;	
+}
+.slicknav_nav a:hover{
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	background:#fff;
+	color:#222;
+	text-transform: uppercase;
+  text-decoration: none;
+}
+.slicknav_nav .slicknav_txtnode {
+     margin-left:15px;   
+}
+
+.home_btn {
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+font-family: Arial;
+color: #fff;
+font-size: 12px;
+background: #3498db;
+padding: 8px 10px 8px 10px;
+text-decoration: none;
+margin: 1px;
+cursor: pointer;
+border: none;
+-webkit-box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(255, 255, 255, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(255, 255, 255, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(255, 255, 255, 0.12);
+  will-change: opacity, transform;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  }
+
+.home_btn:hover {
+  background: #49a0d6;
+  background-image: -webkit-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: -moz-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: -ms-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: -o-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: linear-gradient(to bottom, #49a0d6, #3e96d1);
+  text-decoration: none;
+  color: #fff;
+  border: none;
+   webkit-box-shadow: 0 5px 11px 0 rgba(255, 255, 255, 0.18), 0 5px 15px 0 rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0 5px 11px 0 rgba(255, 255, 255, 0.18), 0 5px 15px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(255, 255, 255, 0.18), 0 5px 15px 0 rgba(255, 255, 255, 0.15);
+    margin: 5px;
+}
+.cnt_btn {
+	margin:0px;
+	-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+font-family: Arial;
+color: #fff;
+font-size: 12px;
+background: #3498db;
+padding: 8px 10px 8px 10px;
+text-decoration: none;
+cursor: pointer;
+border: none;
+-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  will-change: opacity, transform;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  -ms-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+.cnt_btn:hover {
+  background: #49a0d6;
+  background-image: -webkit-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: -moz-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: -ms-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: -o-linear-gradient(top, #49a0d6, #3e96d1);
+  background-image: linear-gradient(to bottom, #49a0d6, #3e96d1);
+  text-decoration: none;
+  color: #fff;
+  border: none;
+   webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
